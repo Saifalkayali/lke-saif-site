@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: static-site
-        image: saifalkayali10/lke-saif-site:v1
+        image: parka8189/lke-saif-site:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
